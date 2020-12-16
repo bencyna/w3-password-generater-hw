@@ -26,13 +26,14 @@ function generatePassword() {
   } else if (passwordLength < 8 || passwordLength > 128) {
     alert("Please specify a number between 8 and 128");
     
-  } else if (
+  } if (
     !capitalLetters &&
     !lowerCaseLetters &&
     !numbers &&
     !specialSymbols
   ) {
     alert("please select atleast one option");
+    return generatePassword();
   }
   // Available characters stored in empty variable charSet 
   var charSet = "";
@@ -53,7 +54,7 @@ function generatePassword() {
   }
   // For loop to add characters to variable password 
   // Characters returned to password variable
-  // Executed on page in lines 5-8 of script
+  // Executed on page in lines 5-8 of script.js
   var password = "";
   for (var i = 0; i < passwordLength; i++) {
     var random = Math.floor(Math.random() * charSet.length);
