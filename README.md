@@ -3,10 +3,12 @@
 This project allows the continued development of Javascript utility by incorporating action to webpages. There are many opporunities to apply the code used in this project such as functions, for loops and if else statements. This project showcases what I have learnt about javascript to incorporate code to create a webpage that is interactive. 
 
 ## Installation
-- Created if statement to check user input matches requirements utilising a prompt for character length
-- User chooses available characters through series of confirms
+- Created if statement to check user input matches requirements utilising a prompt for character length.
+- User chooses available characters through series of confirms.
 - Answers to confirms are stored in charSet variable. 
-- 
+- For loop created to add a random character to the Password variable until the specified character length is reached.
+- Password variable stores letter arrangemnents.
+- Password is printed on screen
 
 ## Usage
 

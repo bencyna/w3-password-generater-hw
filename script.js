@@ -9,7 +9,7 @@ function writePassword() {
 }
 // all code added to generatePassword() function to allow it to run in the page
 // if statement ensures user input matches requirements
-// confirmation of characters used for password 
+// confirmation of characters used for password
 function generatePassword() {
   var passwordLength = prompt(
     "How many characters would you like in your password?"
@@ -22,11 +22,12 @@ function generatePassword() {
     var numbers = confirm("Would you like numbers?");
 
     var specialSymbols = confirm("Would you like special symbols?");
-
   } else if (passwordLength < 8 || passwordLength > 128) {
     alert("Please specify a number between 8 and 128");
-    
-  } if (
+  }
+  if (
+    passwordLength >= 8 &&
+    passwordLength <= 128 &&
     !capitalLetters &&
     !lowerCaseLetters &&
     !numbers &&
@@ -35,7 +36,7 @@ function generatePassword() {
     alert("please select atleast one option");
     return generatePassword();
   }
-  // Available characters stored in empty variable charSet 
+  // Available characters stored in empty variable charSet
   var charSet = "";
   if (capitalLetters) {
     charSet += "ABCDEFGHIJKLMNOPQRSTUVQXYZ";
@@ -52,7 +53,7 @@ function generatePassword() {
   if (specialSymbols) {
     charSet += "!#$%&'()*+,-./:;<=>?@][^_`{|}~";
   }
-  // For loop to add characters to variable password 
+  // For loop to add characters to variable password
   // Characters returned to password variable
   // Executed on page in lines 5-8 of script.js
   var password = "";
