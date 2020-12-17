@@ -11,8 +11,15 @@ This project allows the continued development of Javascript utility by incorpora
 - Password is printed on screen
 
 ## Usage
+![Image of code for prompts and confirms](./assets/screenshot1.jpg)
+
+![Image of website buttons](./assets/screenshot2.jpg)
+
+The above images represent the code used to intitialise the prompts and confirms while also the utilisation of the code to produce the interactive user experience. A link to the workong product can be found at the bottom of this READ.me file. 
+
 
 ## Credits
+https://adelaide.bootcampcontent.com/the-university-of-adelaide/uadel-adel-fsf-pt-11-2020-u-c.git 
 
 ## Licnece 
 MIT License
@@ -38,3 +45,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## working product 
+https://bencyna.github.io/w3-password-generater-hw/ 
